@@ -1,13 +1,15 @@
-Sweet Alert iOS
-==============
+Sweet Alert View
+=================
 
 Beautiful Animated custom Alert View inspired from javascript library [SweetAlert](http://tristanedwards.me/sweetalert).
 Written in Swift this SweetAlertView can be used in Swift and Objective-C projects. SweetAlertView provides live intutive experience to user actions.It can be used in place of `UIAlertView` and `UIAlertController`
 
+
 ###ScreenShots
-![SweetAlert](https://github.com/codestergit/SweetAlert-iOS/blob/master/SweetAlertiOS.gif)
+![SweetAlert](https://github.com/seniordev32/SweetAlertView/blob/master/SweetAlertView.gif)
 
 ###Usage
+
 #####Basic message：
 ```swift
 SweetAlert().showAlert("Here's a message!")
@@ -55,21 +57,21 @@ SweetAlert().showAlert("Sweet!", subTitle: "Here's a custom image.", style: Aler
 ```swift
 enum AlertStyle {
     case Success,Error,Warning,None
-    case CustomImag(imageFile:String)
+    case CustomImage(imageFile:String)
 }
 ```
 ###Installation
 Add the `SwiftAlert.swift` in to your project.
 
 ###Reuirements
-- Xcode 7.0+
-- iOS 7.0+
+- Xcode 8.0+
+- iOS 8.0+
 
 ## License
 
     The MIT License (MIT)
 
-    Copyright (c) 2014 codestergit
+    Copyright (c) 2018 Senior
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal

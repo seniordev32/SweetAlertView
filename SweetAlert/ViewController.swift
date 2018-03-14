@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SweetAlert
 //
-//  Created by Codester on 11/3/14.
-//  Copyright (c) 2014 Codester. All rights reserved.
+//  Created by @Senior dev on 2018/03/04.
+//  Copyright (c) 2018 @Senior dev. All rights reserved.
 //
 
 import UIKit
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func customIconAlert(_ sender: AnyObject) {
-        _ = SweetAlert().showAlert("Sweet!", subTitle: "Here's a custom image.", style: AlertStyle.customImag(imageFile: "thumb.jpg"))
+        _ = SweetAlert().showAlert("Sweet!", subTitle: "Here's a custom image.", style: AlertStyle.customImage(imageFile: "thumb.jpg"))
     }
     
 }
